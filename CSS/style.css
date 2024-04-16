@@ -10,13 +10,13 @@ body, html {
     width: 100%; /* Make sure grid container takes full width */
     max-width: 1200px; /* Optional: constrain max width for larger screens */
     margin: 0 auto; /* Center the container on the page */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
     grid-auto-rows: 300px;
     gap: 20px;
     padding: 20px;
     background-color: #f4f4f4;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* This should center the cards horizontally */
+    align-items: center; /* Vertically center the cards in their rows */
 }
 
 .card {
