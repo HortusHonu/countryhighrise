@@ -1,8 +1,8 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('/Assets/country_highrise_background.jpg'); 
+    background-image: url('../Assets/country_highrise_background.webp'); 
     box-sizing: border-box;
 }
 
