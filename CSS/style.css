@@ -6,7 +6,7 @@ body, html {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: 300px; /* Each row has a fixed height */
     gap: 20px;
     padding: 20px;
