@@ -2,22 +2,22 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url(..assets/country_highrise_background.webp); /* Adjust the path as needed */
-    box-sizing: border-box; /* Ensures padding and borders are included in total width/height */
+    background-image: url(..assets/country_highrise_background.webp); 
+    box-sizing: border-box;
 }
 /*
 .grid-container {
     display: grid;
-    width: 100%; /* Make sure grid container takes full width */
-    max-width: 1200px; /* Optional: constrain max width for larger screens */
-    margin: 0 auto; /* Center the container on the page */
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
     grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
     grid-auto-rows: 300px;
     gap: 20px;
     padding: 20px;
     background-color: #f4f4f4;
-    justify-content: center; /* This should center the cards horizontally */
-    align-items: center; /* Vertically center the cards in their rows */
+    justify-content: center;
+    align-items: center; 
 }
 
 .card {
