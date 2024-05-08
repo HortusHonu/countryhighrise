@@ -15,9 +15,6 @@ header, footer {
     text-align: center;
     background: #222;
 }
-h2, p {
-  text-align: center;
-}
 nav {
     background: #444;
     padding: 10px;
@@ -42,5 +39,4 @@ main {
 section {
     padding: 20px;
     background: rgba(50, 50, 50, 0.8);
-    border: solid
 }
