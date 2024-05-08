@@ -44,7 +44,3 @@ section {
     background: rgba(50, 50, 50, 0.8);
     border: solid
 }
-section:hover {
-    background-color: #ddd;
-    color: black;
-}
